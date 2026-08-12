@@ -37,7 +37,7 @@ Aplicación web que permite a un usuario reportar una incidencia técnica median
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/marciorivera/Soporte-Tecnico-Email.git
-   cd TU-REPOSITORIO
+   cd https://github.com/marciorivera/Soporte-Tecnico-Email
    ```
 2. Instalar dependencias:
    ```bash
