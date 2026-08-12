@@ -57,16 +57,6 @@ Aplicación web que permite a un usuario reportar una incidencia técnica median
 3. En **App → Settings → Secrets**, pegar el contenido de `secrets.toml` con las credenciales reales.
 4. Desplegar y verificar el funcionamiento desde un navegador distinto al usado en el desarrollo.
 
-## 🔐 Gestión segura de credenciales
-
-- Las credenciales del correo (usuario y contraseña de aplicación de Gmail) **nunca se escriben en el código fuente**.
-- Se almacenan y se leen mediante `st.secrets`, el mecanismo de **Secrets de Streamlit**:
-  - En local: archivo `.streamlit/secrets.toml` (incluido en `.gitignore`, nunca se sube a GitHub).
-  - En la nube: configurado directamente en el panel de **Streamlit Community Cloud** (App → Settings → Secrets).
-- Se usa una **contraseña de aplicación (App Password)** de Gmail en lugar de la contraseña real de la cuenta, siguiendo las buenas prácticas de Google para acceso de aplicaciones de terceros.
-- El repositorio solo incluye `secrets.toml.example` como plantilla, sin datos reales.
-- No se comparten capturas de pantalla donde se observen contraseñas, tokens o claves.
-
 ### Cómo generar la contraseña de aplicación de Gmail (una sola vez)
 
 1. Activar la verificación en 2 pasos en la cuenta de Gmail que enviará los correos (Cuenta de Google → Seguridad).
