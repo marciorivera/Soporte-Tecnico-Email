@@ -1,4 +1,4 @@
-# Credenciales reales - NUNCA subir a GitHub
+# Credenciales reales
 .streamlit/secrets.toml
 
 # Python
