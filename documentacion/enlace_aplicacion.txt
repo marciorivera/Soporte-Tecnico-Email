@@ -1,5 +1,5 @@
 Enlace de acceso a la aplicación desplegada (Streamlit Community Cloud):
-https://TU-APP.streamlit.app
+https://soporte-tecnico-email-marcio-rivera.streamlit.app/
 
 Enlace del repositorio (GitHub):
 https://github.com/marciorivera/Soporte-Tecnico-Email
